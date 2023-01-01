@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.page-heading{
+    background-color: #006491;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.order-id-input{
+    width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+   
+}
+.order-status-wrapper{
+    margin: auto;
+}
+.order-status-wrapper .badge {
+    color:white;
+    font-size: 0.9em;
+    padding: 5px 10px;
+}
+.order-status-wrapper .card-header{
+    color: white;
+    background-color:  #006491;
+    border-radius: 20px 20px 0px 0px;
+}
+.order-status-wrapper .card-footer{
+    color: white;
+    background-color: #e31837;
+    border-radius: 0px 0px 20px 20px;
+
+}
+.order-status-wrapper .card{
+    border-radius: 20px;
+}
+.order-status-wrapper .card{
+    margin: 10px 0;
+}
+#order-items-input-text{
+    margin-left: 10px;
+    height: 90px;
+    width: 70%;
+    border-radius: 10px;
+}
+#order-id-input-text{
+margin-left: 10px;
+height: 50px;
+width: 70%;
+border-radius: 10px;
+margin-bottom: 10px;
+}
+#button-addon2{
+    width: 20%;
+    border-radius: 10px;
+    margin: 15px 120px;
+}
